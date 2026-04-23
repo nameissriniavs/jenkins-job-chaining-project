@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description>Job-2: Maven clean compile (use JDK8)</description>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@latest">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/nameissriniavs/DevOps-Rewamp-2024.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/main</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+  </scm>
+</project>
